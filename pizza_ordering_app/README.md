@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## SnapShot
 
+<img width="1440" alt="Screenshot 2023-10-03 at 5 32 51 PM" src="https://github.com/MAmouzouvi/restaurant_ordering_system_/assets/58781718/dbc56f43-63ce-41e5-8b40-27ba29749fc5">
 
 
 
