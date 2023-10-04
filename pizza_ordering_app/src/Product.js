@@ -67,26 +67,28 @@ const [filtered, setFiltered] = useState([])
 
             <div
             style={{
-                backgroundImage: `url(${item.image})`,
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'center center',
-              }}
+              backgroundImage: `url(${item.image})`,
+              backgroundSize: "130% auto", // Ensures the image covers the entire container
+              backgroundRepeat: "no-repeat", // Prevents image repetition
+              backgroundPosition: "top center", // Centers the image
+          
+            }}
               className="pizza1"
-              key={item.id}
-            >
-              <h3>{item.name}</h3>
-              <p style={{ color: 'black', fontWeight: 'bold' }}>{item.description}</p>
-              <p>{item.price}$</p>
+              key={item.id} >
+
+
+<h3 style={textWithOutlineStyle}>{item.name}</h3>
+
+              {/* <p style={{ color: 'black', fontWeight: 'bold' }}>{item.description}</p> NO DESCRIPTION THIS ITME */}
+              <p style={priceStyle}>{item.price}$</p>
               <button className="btn"
+
                  onClick={() => {
                     // added a function to add the pizza to the cart
                     alert(`${item.name} has been added to cart`);
                     // spread previous values and append new one
                     addToCart([...cart, item]);
                   }}
-              
-              
               
               >
                 Add to basket</button>
@@ -111,8 +113,8 @@ const [filtered, setFiltered] = useState([])
              className="cart"
              key ={index}
            >
-             <h3>{item.name}</h3>
-             <p>{item.price}$</p>
+             <h3 style={textWithOutlineStyle}>{item.name}</h3>
+             <p style={{ color: 'black'}}>{item.price}$</p>
              <button onClick={(e)=>{
          // remove item from cart
          cart.splice(index, 1);
@@ -144,5 +146,23 @@ const [filtered, setFiltered] = useState([])
 
   );
 }
+
+const textWithOutlineStyle = {
+  color: 'white',
+  fontWeight: 'bold',
+  fontFamily : 'Rigatoni',
+  fontSize: '17px',
+  textShadow: '2px 2px 4px black, -2px -2px 4px black', // Create a black outline
+};
+
+const priceStyle = {
+  color: 'black',
+  fontWeight: 'bold',
+  alignSelf: 'flex-end',
+  marginBottom: '75px',
+  position: 'bottom',
+  textShadow: '2px 2px 4px white, -2px -2px 4px white', // Create a white outline
+};
+
 
 export default Product;

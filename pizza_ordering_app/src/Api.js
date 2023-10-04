@@ -7,4 +7,3 @@ export const HandleFetch = async () => {
    return res.data.data.butter_pizza;
  });
 };
-// 'https://api.buttercms.com/v2/content/butter_pizza/?auth_token=17e672a98818a19afb1fbfaa7803d17266bee1cd'
