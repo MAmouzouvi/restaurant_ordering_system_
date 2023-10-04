@@ -32,6 +32,7 @@ const welcomeTextStyle = {
   color: "white", // Set text color to white
   fontWeight: "bold", // Make text bold
   fontFamily: "Thirsty Soft", // Use a nicer font (you can change the font family)
+  fontSize: "50px",
 };
 
 const cartButtonStyle = {
