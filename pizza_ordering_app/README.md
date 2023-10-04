@@ -2,18 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-
-## SnapShot
-### Main Page
-<img width="1440" alt="Screenshot 2023-10-03 at 5 32 51 PM" src="https://github.com/MAmouzouvi/restaurant_ordering_system_/assets/58781718/5231d4ba-0479-4eaf-b511-64782efb4929">
-
-
-### With cart View
-<img width="1440" alt="Screenshot 2023-10-03 at 5 33 10 PM" src="https://github.com/MAmouzouvi/restaurant_ordering_system_/assets/58781718/8a60be8d-62c6-4804-bfc7-4d668ff40afb">
-
-
-
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -25,6 +13,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+
+## SnapShot
+### Main Page
+<img width="1440" alt="Screenshot 2023-10-03 at 5 32 51 PM" src="https://github.com/MAmouzouvi/restaurant_ordering_system_/assets/58781718/5231d4ba-0479-4eaf-b511-64782efb4929">
+
+
+### With cart View
+<img width="1440" alt="Screenshot 2023-10-03 at 5 33 10 PM" src="https://github.com/MAmouzouvi/restaurant_ordering_system_/assets/58781718/8a60be8d-62c6-4804-bfc7-4d668ff40afb">
 
 ### `npm test`
 
